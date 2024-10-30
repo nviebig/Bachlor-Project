@@ -1,0 +1,18 @@
+# Default MIRISim dither pattern for LRS.
+# 
+# The dither offsets for point sources are defined in 
+# "The Mid Infrared Instrument for JWST, X: Operations and Data Reduction",
+# K. Gordon et al, 2015, PASP 127, 696-711. (For extended sources no dither but nodding to an empty field is forseen.) 
+# In paragraph 2.8 it is stated: "...a point source is dithered between positions that are located 1/3 and 2/3 
+# along the slit direction", that means an offset of +- 7 columns from the slit center defined in the LRS wavelength and
+# distortion CDP file (4.7" slit with 0.11" pixel size corresponds to app. 42 pixels slit extension).
+# Offsets are defined in the Imager detector plane and are tabulated as column, row offsets (in units of pixels).
+#
+#-7,0
+#+7,0
+#
+# 2018-09-17: bug 490: update of dither offset values according to values in APT 
+# (e-mail from Sarah Kendrew, see attachement in bug 490)
+-8.5,0
++8.59,0
+
