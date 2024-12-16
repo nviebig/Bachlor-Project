@@ -1,5 +1,8 @@
 # Simulating Direct Exoplanet Detection with MIRI on the James-Webb Space Telescope
 
+![Simulation Image](Code/Plots/Coronographic_image0.png)
+
+
 ## Context
 With the **James-Webb Space Telescope (JWST)**, astronomy has gained the largest and most powerful space telescope in history. This remarkable instrument enables us to explore not only our solar system but the entire universe in unprecedented detail. Particularly, the field of **exoplanetary science** stands to benefit immensely from the capabilities of the JWST, allowing researchers to directly detect exoplanets. To date, only about **0.01%** of exoplanets have been detected directly.
 
